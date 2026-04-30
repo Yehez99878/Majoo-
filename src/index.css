@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Mengembalikan latar belakang gelap untuk semua halaman */
+body {
+  background-color: #050510; /* Warna hitam kebiruan ala ruang mesin Arcade */
+  color: white;
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('/assets/bg-polos.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* CATATAN: 
+   Jika sebelumnya kamu memakai gambar background (misal: mesin dingdong), 
+   kamu bisa mengganti background-color di atas dengan:
+   background-image: url('/assets/nama-gambarmu.jpg');
+   background-size: cover;
+   background-position: center;
+*/
