@@ -1,16 +1,57 @@
-# React + Vite
+# 🎮 Majoo! Bersama Gunadarma
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Selamat datang di repositori **Majoo! Bersama Gunadarma**! Proyek ini adalah inovasi game edukasi berbasis *web* yang menggabungkan keseruan mekanik klasik "Pac-Man" dengan konsep pembelajaran interaktif. Dirancang untuk membuat proses belajar menjadi jauh lebih menyenangkan dan adaptif bagi segala usia.
 
-Currently, two official plugins are available:
+## 🌟 Fitur Utama
+* **🕹️ Classic Maze Gameplay:** Telusuri labirin, hindari musuh, dan kumpulkan poin dengan mekanik yang familiar dan seru.
+* **🧠 AI Learning Analytics:** Terintegrasi dengan microservice AI yang menganalisis metrik *gameplay* (waktu respons, akurasi kuis, dan tingkat kesalahan arah) untuk memberikan evaluasi belajar secara *real-time*.
+* **📊 Adaptive Recommendations:** Memberikan rekomendasi materi yang dipersonalisasi berdasarkan performa siswa di dalam game.
+* **☁️ Cloud-Based Real-Time Data:** Penyimpanan dan sinkronisasi skor pengguna secara aman menggunakan arsitektur *backend* yang tangguh.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+Proyek ini dibangun menggunakan arsitektur *microservice* modern:
 
-## React Compiler
+**Frontend (Client-Side):**
+* **Framework:** React.js + Vite
+* **Styling:** Tailwind CSS
+* **Game Engine:** Phaser.js / HTML5 Canvas
+* **State Management:** Zustand
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**AI & Analytics Backend (Microservice):**
+* **Language:** Python
+* **Framework:** FastAPI
+* **Data Processing:** Pandas, NumPy, Scikit-Learn/TensorFlow
+* **Database:** Supabase (PostgreSQL-as-a-Service)
 
-## Expanding the ESLint configuration
+## 👥 Tim Pengembang (Team 5)
+Di balik pengembangan proyek ini, terdapat kolaborasi dari 3 peran utama:
+1.  **Hacker (Lead Engineer):** Yehezkiel Athanasius Manurung
+2.  **Hustler (Business & Product):** Cindi Crosscintya
+3.  **Hipster (UI/UX & Design):** Dellia Visita Pratiwi
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Cara Menjalankan Proyek Secara Lokal
+
+### Prasyarat
+Pastikan kamu sudah menginstal **Node.js** (v18+) dan **Python** (v3.10+) di perangkat anda.
+
+### Langkah Instalasi
+1.  **Clone Repositori ini:**
+    ```bash
+    git clone [https://github.com/Yehez99878/Majoo-.git](https://github.com/Yehez99878/Majoo-.git)
+    cd Majoo-
+    ```
+
+2.  **Install Dependensi Frontend:**
+    ```bash
+    npm install
+    ```
+
+3.  **Jalankan Server Development Frontend:**
+    ```bash
+    npm run dev
+    ```
+
+*(Catatan: Untuk menjalankan microservice AI secara lokal, pastikan untuk mengaktifkan *virtual environment* Python dan menggunakan `uvicorn` pada direktori `ai-service`).*
+
+---
+*Dibuat dengan ❤️ untuk merevolusi cara kita belajar sambil bermain.*
